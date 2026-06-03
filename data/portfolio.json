@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "name": "변주호",
+    "nameEn": "Byeon Juho",
+    "role": "Automation Control Engineer",
+    "roleKo": "자동화 제어 엔지니어 (지망)",
+    "tagline": "PLC 시퀀스 제어 위에 AI 데이터 분석을 얹는 스마트 자동화 시스템을 설계합니다.",
+    "location": "Gwangju, South Korea",
+    "year": "2026",
+    "footerName": "nice_2_juho"
+  },
+  "nav": [
+    {
+      "id": "about",
+      "label": "About"
+    },
+    {
+      "id": "education",
+      "label": "Education"
+    },
+    {
+      "id": "skills",
+      "label": "Skills"
+    },
+    {
+      "id": "projects",
+      "label": "Projects"
+    },
+    {
+      "id": "experience",
+      "label": "Experience"
+    },
+    {
+      "id": "career",
+      "label": "Career"
+    },
+    {
+      "id": "contact",
+      "label": "Contact"
+    }
+  ],
+  "hero": {
+    "eyebrow": "AI · SW · Factory Automation",
+    "lines": [
+      "자동차 공장",
+      "자동화를 향해."
+    ],
+    "intro": "자동차 한 대가 완성되기까지 수백 번의 자동화 공정을 거칩니다. 그 라인을 설계하는 엔지니어가 되고 싶습니다. 지금은 프로그래밍으로 기초를 다지고 있고, 다음 단계로 PLC와 시퀀스 제어를 공부할 계획입니다.",
+    "ctaPrimary": {
+      "label": "Resume",
+      "href": "./resume.pdf"
+    },
+    "ctaSecondary": {
+      "label": "Projects",
+      "href": "#projects"
+    },
+    "ctaGithub": {
+      "label": "GitHub",
+      "href": "https://github.com/bjh20042-ops"
+    }
+  },
+  "about": {
+    "eyebrow": "About",
+    "heading": "자기소개",
+    "title": "자동차 공장의 자동화 라인을 만드는 엔지니어가 목표입니다.",
+    "body": "자동차 생산 라인을 움직이는 자동화 설비를 직접 설계하는 것이 목표입니다. 그 출발점에서 지금은 프로그래밍으로 기초를 다지고 있고, 이후 PLC와 시퀀스 제어를 공부해 제어 설계로 나아가려 합니다. 인공지능공학 전공을 바탕으로, 데이터를 이해하는 자동화 엔지니어가 되고자 합니다.",
+    "facts": [
+      {
+        "k": "Goal",
+        "v": "자동차 공장 자동화 (FA) 엔지니어"
+      },
+      {
+        "k": "Now",
+        "v": "프로그래밍 기초 학습 중"
+      },
+      {
+        "k": "Next",
+        "v": "PLC · 시퀀스 제어"
+      },
+      {
+        "k": "Major",
+        "v": "AI·SW학부 인공지능공학전공"
+      }
+    ],
+    "stack": [
+      "Python",
+      "C",
+      "C++",
+      "PyTorch"
+    ]
+  },
+  "education": {
+    "eyebrow": "Education",
+    "title": "학력",
+    "items": [
+      {
+        "school": "Chosun University",
+        "dept": "Department of Artificial Intelligence Engineering",
+        "period": "Mar 2023 — Present",
+        "year": "2nd Year",
+        "gpa": "3.9 / 4.5",
+        "courses": [
+          "Data Structures",
+          "Machine Learning",
+          "Signals & Systems",
+          "Object-Oriented Programming"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "기술 역량",
+    "note": "현재 다룰 수 있는 기술입니다.",
+    "groups": [
+      {
+        "label": "Programming",
+        "items": [
+          {
+            "name": "Python",
+            "level": "Basic",
+            "pct": 45
+          },
+          {
+            "name": "C",
+            "level": "Basic",
+            "pct": 42
+          },
+          {
+            "name": "C++",
+            "level": "Basic",
+            "pct": 40
+          }
+        ]
+      },
+      {
+        "label": "AI / ML",
+        "items": [
+          {
+            "name": "PyTorch",
+            "level": "Basic",
+            "pct": 42
+          }
+        ]
+      },
+      {
+        "label": "Tools",
+        "items": [
+          {
+            "name": "Git / GitHub",
+            "level": "Basic",
+            "pct": 50
+          },
+          {
+            "name": "VS Code / Jupyter",
+            "level": "Intermediate",
+            "pct": 60
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "프로젝트",
+    "note": "아래는 설계 단계 프로젝트입니다. 수치는 측정값이 아니라 설계 목표로 명시했습니다.",
+    "items": [
+      {
+        "index": "01",
+        "status": "Planned",
+        "title": "Edge-AI 기반 지능형 컨베이어 분류 시스템",
+        "summary": "PLC 시퀀스 제어 + AI 비전 검사를 결합한 스마트 팩토리 자동 분류 라인.",
+        "period": "2026.12 — 2027.02",
+        "stack": [
+          "LS ELECTRIC PLC",
+          "XG5000",
+          "Python",
+          "OpenCV",
+          "Ladder Logic",
+          "광전 센서",
+          "서보 모터"
+        ],
+        "role": "개인 프로젝트 — AI 인식 알고리즘 연동, 래더 프로그램 설계, 입출력 결선",
+        "features": [
+          "비전 데이터와 PLC 센서 신호를 인터페이스로 연동해 객체 크기·결함을 자동 분류",
+          "타이머/카운터를 활용한 서보 모터 정역제어 및 정밀 위치 제어",
+          "이상 감지 시 즉시 공정을 멈추는 하드웨어/소프트웨어 인터록 비상정지 회로"
+        ],
+        "goals": [
+          "지정 시나리오 공정 가동률 100% (설계 목표)",
+          "오동작율 0% 및 실시간 데이터 연동 지연 최소화 (설계 목표)"
+        ],
+        "github": null,
+        "demo": null
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "title": "연구 및 활동",
+    "note": "전공 기반으로 진행한 멀티모달 LLM 개인 연구입니다. 자동화 진로와는 'AI 모델을 신뢰할 수 있게 만든다'는 문제의식에서 이어집니다 — 현장 제어든 모델 추론이든, 결과를 검증하고 오류를 줄이는 게 핵심이라고 봅니다.",
+    "items": [
+      {
+        "title": "Large Multimodal Models 개인 연구",
+        "period": "개인 실험 활동",
+        "points": [
+          "LLaVA-1.5 환각(Hallucination) 저감: Self-Verification Loop를 설계해 모델이 자기 답변의 정당성을 재검증하도록 하고 환각 감소를 실험으로 확인",
+          "LLaVA-CoT 한계 분석: 멀티모달 환경에서 사고사슬 추론 적용 시 발생하는 병목과 시각-텍스트 정렬 오류 분석",
+          "추론 단계 최적화: 단계 수에 따른 성능 변화를 Ablation Study로 분석해 추론 속도 가속 및 경량화"
+        ]
+      }
+    ]
+  },
+  "career": {
+    "eyebrow": "Career Goal",
+    "title": "진로 목표",
+    "items": [
+      {
+        "title": "PLC Control Engineer",
+        "desc": "설비 로직을 설계하고 안전하게 구현하는 제어 엔지니어."
+      },
+      {
+        "title": "Factory Automation Engineer",
+        "desc": "FA 라인 전체를 데이터 기반으로 최적화하는 자동화 엔지니어."
+      },
+      {
+        "title": "Plant Electrical Design Engineer",
+        "desc": "플랜트 전기 제어 설계로 영역을 확장."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "연락처",
+    "body": "협업이나 문의는 이메일로 편하게 주세요.",
+    "items": [
+      {
+        "label": "Email",
+        "value": "bjh20042@gmail.com",
+        "href": "mailto:bjh20042@gmail.com"
+      },
+      {
+        "label": "GitHub",
+        "value": "github.com/bjh20042-ops",
+        "href": "https://github.com/bjh20042-ops"
+      }
+    ],
+    "resume": "./resume.pdf"
+  }
+}

@@ -1,0 +1,56 @@
+/* ============================================================
+   tokens.css — 디자인 시스템의 단일 출처
+   색/폰트/간격을 바꾸려면 여기만 수정하세요.
+   ============================================================ */
+
+:root {
+  /* --- Color: 다크 산업용 베이스 + 단색 액센트 --- */
+  --bg:        #0a0b0d;
+  --bg-soft:   #111317;
+  --surface:   #15181d;
+  --surface-2: #1b1f26;
+  --line:      #262b33;
+  --line-soft: #1e2228;
+
+  --ink:       #f2f4f7;   /* 본문 강조 */
+  --ink-2:     #c2c8d0;   /* 본문 */
+  --ink-3:     #7f8893;   /* 보조 */
+  --ink-4:     #565e69;   /* 흐린 라벨 */
+
+  /* 액센트: 산업 안전색에서 온 amber. 단 하나의 색만 쓴다. */
+  --accent:      #ffb528;
+  --accent-dim:  #c98a16;
+  --accent-glow: rgba(255, 181, 40, 0.14);
+
+  /* --- Typography --- */
+  --font-display: "Space Grotesk", "Pretendard", system-ui, sans-serif;
+  --font-body:    "Pretendard", system-ui, -apple-system, sans-serif;
+  --font-mono:    "JetBrains Mono", "Space Mono", ui-monospace, monospace;
+
+  --fs-mono:   0.72rem;
+  --fs-body:   1.02rem;
+  --fs-lead:   1.22rem;
+
+  /* --- Spacing / layout --- */
+  --maxw:      1180px;
+  --gutter:    clamp(1.25rem, 5vw, 4rem);
+  --section-y: clamp(5rem, 12vh, 9rem);
+  --radius:    14px;
+  --radius-sm: 9px;
+
+  /* --- Motion --- */
+  --ease:      cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-soft: cubic-bezier(0.4, 0, 0.2, 1);
+  --dur:       0.7s;
+
+  /* --- Misc --- */
+  --grid-color: rgba(255, 255, 255, 0.022);
+}
+
+/* 가변폰트 로컬 폴백을 위한 Pretendard (CDN) — tokens에서 선언 */
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/woff2/PretendardVariable.woff2") format("woff2-variations");
+}
